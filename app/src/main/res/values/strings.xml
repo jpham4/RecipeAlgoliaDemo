@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecipeAlgoliaDemo</string>
+    <string name="search_name">Search</string>
+    <string name="search_hint">Search recipes…</string>
+</resources>

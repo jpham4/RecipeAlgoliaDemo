@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#0b5baa</color>
+    <color name="colorAccent">#C0E1FF</color>
+    <color name="RecipeName">@android:color/black</color>
+    <color name="cookTime">@android:color/darker_gray</color>
+</resources>

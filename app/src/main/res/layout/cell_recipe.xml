@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview_poster"
+        android:layout_width="40dip"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textview_cookTime"
+        style="@style/cookTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:padding="6dip" />
+
+    <TextView
+        android:id="@+id/textview_name"
+        style="@style/RecipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBaseline="@id/textview_cookTime"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/imageview_poster"
+        android:layout_toLeftOf="@id/textview_cookTime"
+        android:layout_toRightOf="@id/imageview_poster"
+        android:layout_toStartOf="@id/textview_cookTime"
+        android:padding="6dip" />
+
+</RelativeLayout>
